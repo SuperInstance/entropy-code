@@ -1,0 +1,14 @@
+[package]
+name = "entropy-code"
+version = "0.1.0"
+edition = "2021"
+description = "Entropy coding fundamentals: Shannon entropy, symbol probability, optimal code length, Kraft inequality, and arithmetic coding"
+license = "MIT"
+repository = "https://github.com/SuperInstance/entropy-code"
+keywords = ["entropy", "coding", "shannon", "arithmetic", "compression"]
+categories = ["algorithms", "compression", "encoding"]
+readme = "README.md"
+
+[lib]
+name = "entropy_code"
+path = "src/lib.rs"
